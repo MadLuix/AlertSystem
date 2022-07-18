@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Início</title>
+<meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+    body{color: #000000; background-color: #a0a0a0; font-family: arial; text-align: left;}
+    button{
+        padding: 15px;
+        display: inline-block;
+        border: solid 2px #000000; 
+        width: 100%;
+        border-radius: 7px; 
+        box-shadow: 9px 10px 21px -2px rgba(0,0,0,0.4); 
+        margin: 5px;
+    }
+    form{ 
+        margin-left: 35%; 
+        margin-right: 35%; 
+        padding: 15px;
+        border: solid 4px #000000;
+        border-radius: 15px; 
+        box-shadow: 10px 10px 24px 10px rgba(1,2,1,0.6);
+        background-color: #d1d1d1;
+        color: #000000;
+    }
+    .w3-sidebar{
+        background-color: #476cd0;
+        color: #ffffff;
+    }
+    h2{
+        color:#fff;
+    }
+    legend{
+        font-weight: bold; 
+    }
+    
+</style>
+<body>
+    <div class="w3-sidebar  w3-bar-block" style="width:10%">
+    <h3 class="w3-bar-item" style="border-bottom: solid 2px #ffffff;">Opções</h3>
+    <a href="index.html" class="w3-bar-item w3-button">Menu principal</a>
+    <a href="alertas.php" class="w3-bar-item w3-button">Alertas</a>
+    <a href="#" class="w3-bar-item w3-button">Configurações</a>
+    <a href="#" class="w3-bar-item w3-button">Sair</a>
+</div>
+<br>
+<br>
+<font color="#000000">
+
+<h2 align="center">Sistema de Alertas</h2>
+
+<form align="left">
+<fieldset id="usuario">
+    <legend>Escolha uma das opções :</legend>
+   <section>
+        <button type="button" onclick="window.location.href='alertas.php'">Acessar alertas</button>
+        <button type="button" >Editar localidades</button>
+     
+        <button type="button" >Configurações</button>
+        <button type="button" >Sair do sistema</button>
+        
+    </section>
+</fieldset>
+  
+    </form></font></body></html>

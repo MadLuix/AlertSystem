@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">AlertSystem</string>
+    <string name="botao1">Emitir alerta</string>
+    <string name="botao2">Consultar alertas</string>
+    <string name="botao3">Configurações</string>
+    <string name="criartxt">Criar alertas</string>
+    <string name="consultartxt">Consultar alertas</string>
+    <string name="configtxt">Configurações</string>
+    <string name="criarbtntxt">Criar alerta</string>
+    <string name="txcampus">Cidade:</string>
+    <string name="txtipo">Tipo:</string>
+    <string name="txbloco">Bloco:</string>
+    <string name="txandar">Andar:</string>
+    <string name="txsala">Local:</string>
+    <string name="alertatx">Descrição detalhada do problema:</string>
+    <string-array name="campus_array">
+        <item>Brás</item>
+        <item>Guarulhos</item>
+        <item>Mogi das Cruzes</item>
+        <item>Pirituba</item>
+        <item>Campinas</item>
+    </string-array>
+    <string-array name="tipo_array">
+        <item>Estrutural</item>
+        <item>Organizacional</item>
+        <item>Falta de objeto</item>
+        <item>Outros</item>
+    </string-array>
+    <string-array name="bloco_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+    <string-array name="andar_array">
+        <item>Térreo</item>
+        <item>1 Andar</item>
+        <item>2 Andar</item>
+        <item>3 Andar</item>
+        <item>4 Andar</item>
+        <item>5 Andar</item>
+    </string-array>
+    <string-array name="sala_array">
+        <item>Saguão</item>
+        <item>Corredor</item>
+        <item>Elevador</item>
+        <item>Outros</item>
+
+    </string-array>
+</resources>
